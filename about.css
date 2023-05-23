@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding:0px;
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+}
+.section{
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)), url(underwater.jpg);
+    background-position: center;
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+.hero{
+    width: 80%;
+    margin: auto;
+    padding: 30px 0px;
+}
+a h1{
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fcb;
+}
+a h1::after{
+    content: "";
+    height: 3px;
+    width: 225px;
+    background-color: #fcb;
+    display: block;
+    margin: 10px auto;
+}
+img{
+    margin: auto;
+    display: block;
+    margin-top: 40px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 3px solid #bef4f7;
+
+}
+a h5{
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: 30px;
+    color: #fcb;
+}
+a p{
+    font-size: 19px;
+    color:white;
+    font-size: 20px;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(underwater.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center ;
+}
+ul{
+    float: right;
+    list-style: none;
+    margin-top: 15px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+ul li.active a{
+    background-color: white;
+    color: black;
+}
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #bef4f7;
+    
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: white;
+    font-size: 70px;
+}
+.title h2{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+footer {
+    background-color: #000207;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
